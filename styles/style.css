@@ -62,7 +62,7 @@ form input[type="search"] {
 	font: inherit;
 	margin-left: 12px;
 	width: 95%;
-	color: var(--yellow);
+	color: var(--blue);
 	transition: all 0.2s;
 }	
 
