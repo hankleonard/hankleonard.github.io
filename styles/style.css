@@ -8,7 +8,7 @@
 :root {
 	--red: #BD9980;
 	--white: #DCDCCC;
-	--yellow: #f0dfaf;
+	--yellow: #DCDCCC;
 
 	--bg: #282828;
 	--fg: #3f3f3f;
@@ -30,7 +30,7 @@
 body {
 	background-color: var(--bg);
 	font-family: 'Space Mono', monospace;
-	color: var(--white);
+	color: var(--yellow);
 	transition: all 0.25s ease-out;
 }
 
