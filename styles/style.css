@@ -8,7 +8,8 @@
 :root {
 	--red: #BD9980;
 	--white: #DCDCCC;
-	--yellow: #DCDCCC;
+	--yellow: #ffc96e;
+	--blue: #26afd9;
 
 	--bg: #282828;
 	--fg: #3f3f3f;
@@ -105,13 +106,13 @@ form:focus-within input::placeholder {
 }
 
 #links_container a:hover {
-	color: var(--red);
+	color: var(--blue);
 	transition: all 0.4s;
 }
 
 .subtitle {
 	font-weight: bold;
-	color: var(--red);
+	color: var(--blue);
 }
 
 .title {
