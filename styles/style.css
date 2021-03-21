@@ -30,7 +30,7 @@
 body {
 	background-color: var(--bg);
 	font-family: 'Space Mono', monospace;
-	color: var(--yellow);
+	color: var(--white);
 	transition: all 0.25s ease-out;
 }
 
