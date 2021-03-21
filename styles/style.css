@@ -67,7 +67,7 @@ form input[type="search"] {
 }	
 
 form label {
-	color: var(--yellow);
+	color: var(--blue);
 	position: absolute;
 	transition: all 0.4s;
 }
@@ -133,7 +133,7 @@ form:focus-within input::placeholder {
 
 .bottom a {
 	text-decoration: none;
-	color: var(--yellow);
+	color: var(--blue);
 }
 
 .bottom a:hover {
