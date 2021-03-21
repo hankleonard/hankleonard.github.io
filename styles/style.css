@@ -31,7 +31,7 @@
 body {
 	background-color: var(--bg);
 	font-family: 'Space Mono', monospace;
-	color: var(--yellow);
+	color: var(--blue);
 	transition: all 0.25s ease-out;
 }
 
@@ -62,7 +62,7 @@ form input[type="search"] {
 	font: inherit;
 	margin-left: 12px;
 	width: 95%;
-	color: var(--blue);
+	color: var(--yellow);
 	transition: all 0.2s;
 }	
 
