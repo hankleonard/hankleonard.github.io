@@ -2,8 +2,6 @@
 
 This is the repo for my startpage. It has a minimalist designed based on wlfy's minimal startpage.
 
-<img src="/img/startpage_example.JPG" alt="example image of startpage" title="My Startpage" />
-
 ## Usage
 
 The page is meant for my own personal use with Firefox but feel free to use the code if you would like.
