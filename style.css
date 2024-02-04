@@ -28,7 +28,7 @@ html {
     body {
       display: flex;
       margin: 1em;
-      padding: 1em;
+      padding: 1.5em;
       /* Currently not being used due to looking off with square image */
       background-color: var(--foreground);
       border-radius: 8px;
