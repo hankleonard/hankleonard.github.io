@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="classes">
+<head>
+    <meta charset="UTF-8 UTF-16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9cff4086da.js" crossorigin="anonymous"></script>
+    <script src="./script/weather.js" async></script>
+    <script src="./script/time.js" async></script>
+    <script src="./script/images.js"></script>  
+    <title>Hank's Startpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>Welcome, Hank!</h1>
+    <div class="status-strip">
+      <span class="date"></span>
+      <span> | </span>
+      <span class="time"></span>
+      <span> | </span>
+      <span class="weather"></span>
+    </div>
+    <ul>
+      <li>General</li>
+      <li><a href="https://github.com/">github</a></li>
+      <li><a href="https://www.wikipedia.org/">wikipedia</a></li>
+      <li><a href="https://wiki.archlinux.org/">arch wiki</a></li>
+      <li><a href="https://gatech.instructure.com/">ga tech</a></li>
+
+    </ul>
+
+    <ul>
+      <li>Cyber</li>
+      <li><a href="https://academy.hackthebox.com/">hackthebox</a></li>
+      <li><a href="https://tryhackme.com/">tryhackme</a></li>
+      <li><a href="https://github.com/ossu/computer-science">ossu</a></li>
+      <li><a href="https://news.ycombinator.com/">hacker news</a></li>
+
+    </ul>
+
+    <ul>
+      <li>Tools</li>
+      <li><a href="https://pomofocus.io/">pomofocus</a></li>
+      <li><a href="https://regexr.com/">regexr</a></li>
+      <li><a href="https://catbox.moe/">catbox</a></li>
+      <li><a href="https://openai.com/chatgpt">chatgpt</a></li>
+      
+      <form action="https://duckduckgo.com/" method="GET">
+  <input autofocus
+         name="q"
+         type="search"
+         placeholder="Search with ddg...">
+</form>
+
+    </ul>
+
+    <ul>
+      <li>Media</li>
+      <li><a href="https://www.last.fm/">last.fm</a></li>
+      <li><a href="https://www.youtube.com/">youtube</a></li>
+      <li><a href="https://www.goodreads.com/">goodreads</a></li>
+      <li><a href="https://reddit.com/">reddit</a></li>
+
+    </ul>
+    
+  </nav>
+  
+<!--  Adding a quote generator to bottom of the page, it is a work in progress  
+
+<div id="quote-container">
+  <div class="text-container">
+    <p id="quoteText">Imagination governs the world.</p>
+  </div>
+  <div class="text-container-quote">
+    <p>~ <span id="quoteAuthor">Napoleon Bonaparte</span></p>
+  </div>
+</div>
+ -->
+ 
+  <!-- This calls back to images.js to display the chosen image -->
+  <img id="random-image" alt="Randomly Selected Image">
+</body>
+</html>

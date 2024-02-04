@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+/* Defining constants to use for my color palette */
+:root {
+  --foreground:#202020;
+  --background:#0c131f;
+  --header:#6aefbb;
+  --title:#eaefe9;
+  --status: #369afe;
+  --bookmark:#b1b1b2;
+  --hover:#e8c425;
+}
+
+html {
+      /* background-color: #1a1b26; */
+      background-color: var(--background);
+      align-items: center;
+      /* color: #ebdbb2; */
+      color: var(--bookmark);
+      display: flex;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 20px;
+      height: 100%;
+      justify-content: center;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      margin: 1em;
+      padding: 1em;
+      /* Currently not being used due to looking off with square image */
+      background-color: var(--foreground);
+      border-radius: 8px;
+    }
+
+    h1 {
+      font-size: 2em;
+      grid-column: 1 / -1;
+      margin: 0;
+      margin-bottom: 0.65em;
+      margin-right: 3em;
+      text-align: center;
+      /* color: #a9b1d6; */
+      color: var(--title);
+    }
+
+    .status-strip {
+      font-size: 1em;
+      grid-column: 1 / -1;
+      margin: 0;
+      margin-top: -0.65em;
+      margin-bottom: 0.65em;
+      margin-right: 6em;
+      text-align: center;
+      /* color: #a9b1d6; */
+      color: var(--status);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      /* color: #a9b1d6; */
+      color: var(--status);
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 0 1em;
+      min-width: 24em;
+      padding: 1em 0;
+      margin-right: -4em;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0.4em;
+      padding: 0;
+      white-space: nowrap;
+    }
+
+    li:first-child {
+      font-weight: bold;
+      line-height: 2em;
+      /* color: #ad8ee6; */
+      color: var(--header);
+    }
+
+    img {
+      /* border: 2px solid #ebdbb2; */
+      border: 2px solid var(--header);
+      border-radius: 8px;
+      justify-self: end;
+      width: 40vh;
+      height: 40vh;
+    }
+
+/* Quotes are a work in progress */
+
+    /* #quote-container {
+      width: 75vh;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 5px;
+      text-align: right;
+      position: relative; 
+    }  */
+
+    /* #quote-container .text-container{
+      color: var(--quote-color);
+      font-size: 18px;
+    } */
+  
+  /* #quote-container .text-container-quote p{
+      margin-top: -15px;
+      color: var(--author-color);
+    } */
+
+input {
+  background-color: unset;
+  font: 16px 'Verdana', sans-serf;
+  /* color: #ebdbb2; */
+  color: var(--title);
+  height: 100%;
+  width: 100%;
+  border-top-style: hidden;
+  border-bottom-style: soild;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  /* border-bottom-color: #ff9e64; */
+  border-bottom-color: var(--title);
+  text-align: center;
+  margin-top: 50px;
+  outline: 0;
+  padding-bottom: 0.5em;
+}
