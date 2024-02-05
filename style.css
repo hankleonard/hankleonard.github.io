@@ -29,7 +29,7 @@ html {
       display: flex;
       margin: 1em;
       padding: 0.5em;
-      background-color: var(--foreground);
+      /* background-color: var(--foreground); */
       border-radius: 8px;
     }
 
@@ -102,6 +102,8 @@ html {
       min-width: 24em;
       padding: 1em 0em;
       margin-right: -3em;
+      background-color: var(--foreground);
+      border-radius: 8px;
     }
 
     ul {
