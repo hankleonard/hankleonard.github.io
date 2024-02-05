@@ -4,8 +4,8 @@
 image_directory = "images/"
 
 # Define the starting and ending numbers for the images
-start_number = 12
-end_number = 201
+start_number = 202
+end_number = 246
 
 # Iterate over the range of image numbers and print the corresponding lines
 for i in range(start_number, end_number + 1):

@@ -212,11 +212,65 @@ document.addEventListener('DOMContentLoaded', function() {
         'images/image199.jpg',
         'images/image200.jpg',
         'images/image201.jpg',
+        'images/image202.jpg',
+        'images/image203.jpg',
+        'images/image204.jpg',
+        'images/image205.jpg',
+        'images/image206.jpg',
+        'images/image207.jpg',
+        'images/image208.jpg',
+        'images/image209.jpg',
+        'images/image210.jpg',
+        'images/image211.jpg',
+        'images/image212.jpg',
+        'images/image213.jpg',
+        'images/image214.jpg',
+        'images/image215.jpg',
+        'images/image216.jpg',
+        'images/image217.jpg',
+        'images/image218.jpg',
+        'images/image219.jpg',
+        'images/image220.jpg',
+        'images/image221.jpg',
+        'images/image222.jpg',
+        'images/image223.jpg',
+        'images/image224.jpg',
+        'images/image225.jpg',
+        'images/image226.jpg',
+        'images/image227.jpg',
+        'images/image228.jpg',
+        'images/image229.jpg',
+        'images/image230.jpg',
+        'images/image231.jpg',
+        'images/image232.jpg',
+        'images/image233.jpg',
+        'images/image234.jpg',
+        'images/image235.jpg',
+        'images/image236.jpg',
+        'images/image237.jpg',
+        'images/image238.jpg',
+        'images/image239.jpg',
+        'images/image240.jpg',
+        'images/image241.jpg',
+        'images/image242.jpg',
+        'images/image243.jpg',
+        'images/image244.jpg',
+        'images/image245.jpg',
+        'images/image246.jpg',
         ];
   
-    var randomIndex = Math.floor(Math.random() * images.length);
-    var selectedImage = images[randomIndex];
+    // Function to randomize image selection
+    function getRandomImage() {
+        var randomIndex = Math.floor(Math.random() * images.length);
+        return images[randomIndex];
+        // var selectedImage = images[randomIndex];
+    }
         
     var imgElement = document.getElementById('random-image');
-    imgElement.src = selectedImage;
+    imgElement.src = getRandomImage();
+
+    // Randomize the image when it is clicked on
+    imgElement.addEventListener('click', function() {
+        imgElement.src = getRandomImage();
+    })
   });
