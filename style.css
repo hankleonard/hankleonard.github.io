@@ -60,7 +60,7 @@ html {
       /* color: #ebdbb2; */
       color: var(--title);
       height: 100%;
-      width: 100%;
+      width: 75%;
       border-top-style: unset;
       border-bottom-style: soild;
       border-left-style: unset;
@@ -69,8 +69,8 @@ html {
       /* border-bottom-color: var(--title); */
       /* border-color: var(--title); */
       /* border-radius: 6px; */
-      text-align: center;
-      margin-top: 50px;
+      text-align: left;
+      /* margin-top: 0; */
       outline: 0;
       padding-bottom: 0.5em;
     }
@@ -78,10 +78,11 @@ html {
     form {
       grid-column: 1 / -1;
       display: inline-block;
-      margin-top: -0.5em;
+      margin-top: 0.5em;
       margin-bottom: 0.5em;
       margin-right: 0.5em;
       margin-left: 0.5em;
+      text-align: center;
     }
 
     a {
