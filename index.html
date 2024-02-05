@@ -7,13 +7,14 @@
     <script src="https://kit.fontawesome.com/9cff4086da.js" crossorigin="anonymous"></script>
     <script src="./script/weather.js" async></script>
     <script src="./script/time.js" async></script>
-    <script src="./script/images.js"></script>  
+    <script src="./script/images.js"></script>
+      
     <title>Hank's Startpage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav>
-    <h1>Welcome, Hank!</h1>
+    <h1 id="welcome-message">Welcome, Hank!</h1>
     <div class="status-strip">
       <span class="date"></span>
       <span> | </span>
@@ -90,6 +91,9 @@
       </p>
     </div>
   </div>
+
+  <!-- Welcome message script is here so DOM is fully loaded -->
+  <script src="./script/welcomeMessage.js"></script>
 
 </body>
 </html>
