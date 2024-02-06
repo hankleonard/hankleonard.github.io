@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 /* Defining constants to use for my color palette */
 :root {
@@ -6,7 +6,7 @@
   --background:#0c131f;
   --header:#6aefbb;
   --title:#eaefe9;
-  --status: #e9efea;
+  --status: #369afe;
   --bookmark:#b1b1b2;
   --hover:#e8c425;
 }
@@ -18,7 +18,7 @@ html {
       /* color: #ebdbb2; */
       color: var(--bookmark);
       display: flex;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 20px;
       height: 100%;
       justify-content: center;
@@ -29,7 +29,7 @@ html {
       display: flex;
       margin: 1em;
       padding: 0.5em;
-      /* background-color: var(--foreground); */
+      background-color: var(--foreground);
       border-radius: 8px;
     }
 
@@ -60,7 +60,7 @@ html {
       /* color: #ebdbb2; */
       color: var(--title);
       height: 100%;
-      width: 75%;
+      width: 100%;
       border-top-style: unset;
       border-bottom-style: soild;
       border-left-style: unset;
@@ -69,8 +69,8 @@ html {
       /* border-bottom-color: var(--title); */
       /* border-color: var(--title); */
       /* border-radius: 6px; */
-      text-align: left;
-      /* margin-top: 0; */
+      text-align: center;
+      margin-top: 50px;
       outline: 0;
       padding-bottom: 0.5em;
     }
@@ -78,11 +78,10 @@ html {
     form {
       grid-column: 1 / -1;
       display: inline-block;
-      margin-top: 0.5em;
+      margin-top: -0.5em;
       margin-bottom: 0.5em;
       margin-right: 0.5em;
       margin-left: 0.5em;
-      text-align: center;
     }
 
     a {
@@ -102,9 +101,7 @@ html {
       margin: 0 1em;
       min-width: 24em;
       padding: 1em 0em;
-      margin-right: -3em;
-      background-color: var(--foreground);
-      border-radius: 8px;
+      margin-right: -4em;
     }
 
     ul {
@@ -112,7 +109,7 @@ html {
       margin: 0.4em;
       padding: 0;
       white-space: nowrap;
-      text-align: center;
+      margin-left: 20px;
     }
 
     li:first-child {
