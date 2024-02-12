@@ -41,7 +41,13 @@ document.addEventListener('DOMContentLoaded', function() {
         'images/image28.jpg',
         'images/image29.jpg',
         'images/image30.jpg',
-        ];
+        'images/image31.jpg',
+        'images/image32.jpg',
+        'images/image33.jpg',
+        'images/image34.jpg',
+        'images/image35.jpg',
+        'images/image36.jpg',
+            ];
   
     // Function to randomize image selection
     function getRandomImage() {
